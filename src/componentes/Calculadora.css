@@ -1,0 +1,56 @@
+/*body*/
+body{
+    background-image: url("/public/imagenes/fondo.jpg");  
+    background-size:cover;
+    height: auto;
+}
+/*contenedor principal*/
+#contenedor-principal{
+    margin-top: 10%;
+}
+/*main*/
+.areaDeTrabajo {
+    margin: 1 rem;
+ }
+ .contenedor{
+     min-width: 350px;
+ }
+ /*botones*/
+ .contenedorBotones{
+     display: flex;
+     flex-flow: wrap;
+     gap: 10px;
+     justify-content: space-around
+ }
+ 
+ #contenedorResultado{
+     width: 100%;
+ }
+ #igual {
+     width: 30%;
+     display: flex;
+     place-content: center;
+ }
+ .boton {
+     width: 14%;
+     
+ }
+ 
+
+ 
+ 
+ @media only screen and (min-width: 480px) and (max-width: 960px) {
+     
+ }
+ 
+ @media only screen and (min-width: 780px) and (max-width:1200px) {
+     .col-md-4{
+        columns: md-6;
+     }
+     .contenedor{
+         min-width: 422px;
+     }
+ }
+ 
+ @media only screen and (min-width: 1201px) {
+ }
