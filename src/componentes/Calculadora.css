@@ -1,13 +1,18 @@
 /*body*/
 body{
-    background-image: url("/public/imagenes/fondo.jpg");  
-    background-size:cover;
+    background-image: url("/public/imagenes/fondo2.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
+    font-family:  'Nunito Sans', sans-serif;
+    color: #dc3545;
 }
-/*contenedor principal*/
-#contenedor-principal{
-    margin-top: 10%;
+h1 {
+    padding: 2rem;
+   
 }
+
+
 /*main*/
 .areaDeTrabajo {
     margin: 1 rem;
@@ -35,6 +40,22 @@ body{
      width: 14%;
      
  }
+/*FOOTER*/
+.divFooter {
+    display: flex;
+    place-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+ footer P {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+footer a{
+    padding-left: 1rem;
+  
+}
  
 
  

@@ -193,9 +193,9 @@ const Calculadora = () => {
 
     return(
         <div >
-            <head>
-            <h1>Calculadora Cientifica </h1>
-            </head>
+            
+            <h1>Calculadora Científica </h1>
+          
                  <div id='contenedor-principal' className='row justify-content-center' >
                 <div className="col-md-4">
                     <div className="contenedor alert alert-warning" role="alert">
@@ -251,6 +251,13 @@ const Calculadora = () => {
                     </div>
                 </div>
             </div>
+            <footer>
+                <div className='divFooter '>
+            <p>Virginia Aymará del Rocío Romero</p>
+                <a href='https://www.linkedin.com/in/virginia-aymar%C3%A1-del-roc%C3%ADo-romero/'target={'_blank'}><img src="./imagenes/linkedin.png" alt=""/></a>
+                <a href='https://github.com/VirAyma21' target={'_blank'} ><img src="./imagenes/github.png" alt=""/></a>
+                </div>
+            </footer>
         </div>
     );
 }
